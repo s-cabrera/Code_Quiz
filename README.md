@@ -36,53 +36,16 @@ THEN I can save my initials and my score
 
 The following animation demonstrates the application functionality:
 
-![A user clicks through an interactive coding quiz, then enters initials to save the high score before resetting and starting over.](./assets/04-web-apis-homework-demo.gif)
+![A user clicks through an interactive coding quiz, then enters initials to save the high score before resetting and starting over.](./assets/demo.gif)
 
-## Grading Requirements
 
-This homework is graded based on the following criteria: 
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the preceding acceptance criteria.
-
-### Deployment: 32%
-
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository contains application code.
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate.
-
-* Application user interface style is clean and polished.
-
-* Application resembles the mock-up functionality provided in the homework instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality readme file with description, screenshot, and link to deployed application.
 
 ## Review
 
-You are required to submit BOTH of the following for review:
+* The URL of the functional, deployed application: [https://s-cabrera.github.io/Code_Quiz/](https://s-cabrera.github.io/Code_Quiz/)
 
-* The URL of the functional, deployed application.
 
-* The URL of the GitHub repository, with a unique name and a readme describing the project.
+* The URL of the GitHub repository, with a unique name and a readme describing the project: [https://github.com/s-cabrera/Code_Quiz](https://github.com/s-cabrera/Code_Quiz)
 
 ---
 
