@@ -4,13 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/reset.css" />
     <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <title>Code Quiz</title>
 </head>
 <body>
-    <button id="start">Start</button>
-    <p>View Highscores</p>
-    <span id="timer"></span>
+    <header>
+        <p id="high_scores">View Highscores</p>
+        <p id="timer">Timer:  </p> 
+    </header>
+    <section>
+        <div id="intro">
+            <h1 id="intro_header">Coding Quiz Challenge</h1>
+            <p id="rules"></p>
+            <button id="start">Start</button>
+        </div>
+        <div id="message">
+            <h1 id="question">Question</h1>
+            <ul id="answers"></ul>
+            <span id="correctness"></span>
+        </div>
+        <div id="initials">
+            <h1>All done!</h1>
+            <p id="final_score"></p>
+            <label for="initials_input" >Enter Initials: &nbsp;</label>
+            <input type="text" id="initials_input" name="initials_input">
+            <input type="submit" id="submit" value="Submit">
+        </div>
+        <div id="highscores">
+            <h1>Highscores</h1>
+            <ol id="highscores_container"></ol>
+            <div class="break"></div>
+            <button id="homepage_btn">Homepage</button>
+            <button id="clear_highscores_btn">Clear Highscores</button>
+        </div>
+    </section>
+      <!-- Added link to the jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- My Javascript file  -->
     <script src="./assets/script.js"></script>
 </body>
 </html>

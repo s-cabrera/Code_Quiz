@@ -1,4 +1,146 @@
-*{
-    box-sizing: border-box;
+:root{
+    --purple:rgb(78, 0, 114);
 }
 
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+button, ul li, #submit{
+    color:white;
+    background-color: var(--purple);
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header p {
+    padding: 15px;
+    color: black;
+    font-weight: bolder;
+}
+
+#high_scores{
+    color: var(--purple);
+    cursor: pointer;
+}
+
+#high_scores{float: left;}
+#timer{float:right;}
+
+section{
+    margin-top: 55px;
+}
+
+#intro{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#rules{
+    text-align: center;
+    white-space: pre-line;
+}
+
+#message{
+    width: 100%;
+    height: fit-content;
+    display: none;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+#start{
+    padding: 10px;
+    cursor:pointer;
+}
+
+h1{
+
+    color: black;
+    font-weight: bolder;
+}
+
+ul {
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+    list-style-type: none;
+}
+
+ul li {
+    width: fit-content;
+    height: fit-content;
+    color: white;
+    text-shadow: 5px 5px 5px rgb(80 79 79);
+    padding: 12px;
+    margin-bottom: 6%;
+}
+
+#initials{
+    display: none;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding-left: 33%;
+}
+
+#initials h1{
+    flex: 0 0 100%;
+}
+
+#final_score{
+    flex: 0 0 100%;
+}
+
+#submit{
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+#highscores{
+    display: none;
+    flex-wrap: wrap;
+    padding-left: 15%;
+}
+
+#highscores h1{
+    flex: 0 0 100%
+}
+
+#highscores_container{
+    height: fit-content;
+    flex: 0 0 90%;
+    padding-inline-start: 22px;
+}
+
+.highscore_entry{
+    background-color: rgb(97, 54, 117);
+    color: black;
+    font-weight: bolder;
+    padding:5px;
+}
+
+.highscore_entry:nth-child(even){background-color: rgb(100, 69, 114);}
+
+.break{
+    flex: 0 0 100%;
+}
+
+#highscores button{
+    padding: 5px;
+}
+
+#homepage_btn{
+    margin-right: 10px;
+}
