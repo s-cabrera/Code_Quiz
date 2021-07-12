@@ -1,52 +1,32 @@
-# 04 Web APIs: Code Quiz
+# Coding Quiz
 
-## Your Task
+## Description
 
-At some point in your journey to become a full-stack web developer, you’ll likely be asked to complete a coding assessment&mdash;perhaps as part of an interview process. A typical coding assessment includes both multiple-choice questions and interactive coding challenges. 
+This application is a timed coding quiz with multiple-choice questions. It keeps score of the correct answers and penalizes incorrect answers. At the end of the quiz, a user can add their initials and score to the highscores board. They have the option of taking the quiz again.
 
-To help familiarize you with these tests and allow you to use the skills covered in this unit, this week’s homework invites you to build a timed coding quiz with multiple-choice questions. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean, polished, and responsive user interface. 
+## Technologies Used
+* HTML
+* CSS
+* JavaScript
+* JQuery
 
-This week’s coursework will equip you with all the skills you need to succeed in this assignment.
 
-## User Story
-
-```
-AS A coding boot camp student
-I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
-SO THAT I can gauge my progress compared to my peers
-```
-
-## Acceptance Criteria
-
-```
-GIVEN I am taking a code quiz
-WHEN I click the start button
-THEN a timer starts and I am presented with a question
-WHEN I answer a question
-THEN I am presented with another question
-WHEN I answer a question incorrectly
-THEN time is subtracted from the clock
-WHEN all questions are answered or the timer reaches 0
-THEN the game is over
-WHEN the game is over
-THEN I can save my initials and my score
-```
-
-## Mock-Up
+## Deployed Application
 
 The following animation demonstrates the application functionality:
 
 ![A user clicks through an interactive coding quiz, then enters initials to save the high score before resetting and starting over.](./assets/demo.gif)
 
-
-
-## Review
+## URLs
 
 * The URL of the functional, deployed application: [https://s-cabrera.github.io/Code_Quiz/](https://s-cabrera.github.io/Code_Quiz/)
-
-
 * The URL of the GitHub repository, with a unique name and a readme describing the project: [https://github.com/s-cabrera/Code_Quiz](https://github.com/s-cabrera/Code_Quiz)
 
+## Contact Information
+### Stephanie Cabrera
+* Email: stephanie.cabrera.333@gmail.com
+* Phone: (626) 581-6930
+* LinkedIn: https://www.linkedin.com/in/stephanie-cabrera-809999139/
 ---
 
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
