@@ -2,7 +2,7 @@
 
 ## Description
 
-This application is a timed coding quiz with multiple-choice questions. It keeps score of the correct answers and penalizes incorrect answers. At the end of the quiz, a user can add their initials and score to the highscores board. They have the option of taking the quiz again.
+This application is a timed coding quiz with multiple-choice questions. It keeps score of the correct answers and penalizes incorrect answers. At the end of the quiz, a user can add their initials and score to the Highscores board. They have the option of taking the quiz again. It uses `localStorage` to store and retrieve data for the Highscores board.
 
 ## Technologies Used
 * HTML
